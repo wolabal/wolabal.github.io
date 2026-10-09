@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wolabal — Magic Meal Kits</title>
-  <meta name="description" content="Wolabal builds what the official tools do not cover: Magic Meal Kits for Make, BulkNotion, and Magic Meal Kits Hub.">
+  <title>Wolabal — Software studio</title>
+  <meta name="description" content="Planforge turns product ideas into structured requirements. GlobalAI collects agent instruction files. Studio builds publishes pages, prototypes, and learning repos.">
   <style>
     :root {
       color-scheme: dark;
@@ -27,12 +27,7 @@
     }
     a { color: inherit; }
     .wrap { max-width: 1040px; margin: 0 auto; padding: 28px 24px 64px; }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
-    }
+    nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
     .logo { font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; font-size: 13px; }
     .nav-links { display: flex; gap: 18px; font-size: 14px; color: var(--muted); }
     .nav-links a { text-decoration: none; }
@@ -42,12 +37,7 @@
     h1 { font-family: Georgia, serif; font-weight: 500; font-size: clamp(40px, 6vw, 72px); line-height: 0.96; margin: 0; letter-spacing: -0.03em; }
     .lede { color: var(--muted); font-size: 18px; line-height: 1.6; margin: 22px 0 0; max-width: 48ch; }
     .cta { display: inline-block; margin-top: 28px; background: var(--accent); color: var(--accent-ink); text-decoration: none; font-weight: 700; padding: 12px 18px; border-radius: 999px; }
-    .panel {
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,0.03);
-      border-radius: 18px;
-      padding: 22px;
-    }
+    .panel { border: 1px solid var(--line); background: rgba(255,255,255,0.03); border-radius: 18px; padding: 22px; }
     .panel strong { display: block; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
     .panel p { margin: 10px 0 0; line-height: 1.5; }
     section { margin-top: 28px; }
@@ -58,13 +48,14 @@
       border: 1px solid var(--line);
       border-radius: 18px;
       padding: 22px;
-      min-height: 210px;
+      min-height: 220px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
     }
-    .card h3 { margin: 0 0 8px; font-size: 22px; font-family: Georgia, serif; font-weight: 500; }
+    .card h3 { margin: 8px 0; font-size: 22px; font-family: Georgia, serif; font-weight: 500; }
     .card p { margin: 0; color: var(--muted); line-height: 1.5; }
+    .card a { color: var(--accent); text-decoration: none; font-size: 14px; margin-top: 16px; }
     .tag { color: var(--accent); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
     .contact {
       display: grid;
@@ -95,14 +86,14 @@
     </nav>
     <header class="hero">
       <div>
-        <div class="kicker">Official Make partner · Seoul</div>
-        <h1>We build what the official tools don’t.</h1>
-        <p class="lede">Magic Meal Kits adds the missing pieces to Make.com, Notion, and Claude: YouTube captions, deeper Notion actions, Korean payments, and an MCP server you run yourself.</p>
-        <a class="cta" href="mailto:studio@wolabal.com">Talk to the studio</a>
+        <div class="kicker">Software studio · Seoul</div>
+        <h1>From an idea to something a team can use.</h1>
+        <p class="lede">Planforge writes the requirements. GlobalAI gathers the agent instructions. Studio builds ships the page, the prototype, or the learning repo.</p>
+        <a class="cta" href="mailto:studio@wolabal.com">Start a conversation</a>
       </div>
       <aside class="panel">
-        <strong>How we work</strong>
-        <p>One Claude account, wired to the tools teams already use. Customers deploy Magic Meal Kits Hub on their own Cloud Run. Claude Code writes most of our code.</p>
+        <strong>What we do</strong>
+        <p>An AI generator for product requirements, a local CLI for agent instruction files, and the custom pages and prototypes published from GitHub.</p>
       </aside>
     </header>
     <section id="products">
@@ -110,24 +101,27 @@
       <div class="grid">
         <article class="card">
           <div>
-            <div class="tag">Core</div>
-            <h3>Magic Meal Kits for Make</h3>
-            <p>YouTube captions, deeper Notion actions, and Korean payments for Make.com.</p>
+            <div class="tag">Requirements</div>
+            <h3>Planforge</h3>
+            <p>An AI-powered generator that turns a product idea into a structured requirements document.</p>
           </div>
+          <a href="https://github.com/wolabal/planforge">View source</a>
         </article>
         <article class="card">
           <div>
-            <div class="tag">Notion</div>
-            <h3>BulkNotion</h3>
-            <p>Update hundreds of Notion pages at once, without clicking through them one by one.</p>
+            <div class="tag">Agents</div>
+            <h3>GlobalAI</h3>
+            <p>A local CLI that collects agent instruction files so a team can review them in one place.</p>
           </div>
+          <a href="https://github.com/wolabal/globalAI">View source</a>
         </article>
         <article class="card">
           <div>
-            <div class="tag">Newest</div>
-            <h3>Magic Meal Kits Hub</h3>
-            <p>An MCP server customers deploy on their own Cloud Run. One Claude account works across Google, Notion, Plaud, YouTube, and Korean invoicing.</p>
+            <div class="tag">Publishing</div>
+            <h3>Studio builds</h3>
+            <p>Custom pages, internal prototypes, and educational repositories published from GitHub.</p>
           </div>
+          <a href="https://github.com/wolabal">See the studio</a>
         </article>
       </div>
     </section>
@@ -138,10 +132,10 @@
       </div>
       <div class="panel">
         <strong>Web</strong>
-        <p><a href="https://wolabal.com">wolabal.com</a> is the public home for Magic Meal Kits. We are an official Make partner.</p>
+        <p><a href="https://wolabal.com">wolabal.com</a> is the public home for the studio. Pages are published from this repository.</p>
       </div>
     </section>
-    <footer>Wolabal · Magic Meal Kits · Official Make partner</footer>
+    <footer>Wolabal · Planforge, GlobalAI, and Studio builds</footer>
   </div>
 </body>
 </html>
